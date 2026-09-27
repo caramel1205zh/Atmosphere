@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
         with:
-          ref: 23_support
+          ref: master
           submodules: recursive
 
       - name: Set environment variables
